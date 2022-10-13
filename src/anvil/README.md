@@ -1,31 +1,29 @@
-## Overview of Anvil
+## Visão geral de Anvil
 
-Anvil is a local testnet node shipped with Foundry. You can use it for testing your contracts from frontends or for interacting over RPC.
+A AnVIL é um nó Testnet local enviado com fundição. Você pode usá -lo para testar seus contratos de front -end ou para interagir sobre o RPC.
 
-Anvil is part of the Foundry suite and is installed alongside `forge` and `cast`. If you haven't installed Foundry yet, see [Foundry installation](../getting-started/installation.md). 
+Anvil faz parte da suíte de fundição e é instalado ao lado `forge` e `cast`. Se você ainda não instalou a fundição, veja [Foundry installation](../getting-started/installation.md). 
 
-> Note: If you have an older version of Foundry installed, you'll need to re-install `foundryup` in order for Anvil to be downloaded.
+> Nota: Se você tiver uma versão mais antiga da fundição instalada, precisará reinstalar `foundryup` para que a bigorna seja baixada.
 
-### How to use Anvil
+### Como usar Anvil
 
-To use Anvil, simply type `anvil`. You should see a list of accounts and private keys available for use, as well as the address and port that the node is listening on. 
+Para usar Anvil, basta digitar `anvil`. Você deve ver uma lista de contas e chaves privadas disponíveis para uso, bem como o endereço e a porta em que o nó está ouvindo.
+Anvil é altamente configurável. Você pode correr `anvil -h` Para ver todas as opções de configuração.
 
-Anvil is highly configurable. You can run `anvil -h` to see all the configuration options.
-
-Some basic options are:
+Algumas opções básicas são:
 
 ```bash
-#  Number of dev accounts to generate and configure. [default: 10]
+# Número de contas de dev para gerar e configurar. [Padrão: 10]
 anvil -a, --accounts <ACCOUNTS>
 
-# The EVM hardfork to use. [default: latest]
+# O EVM Hardfork para usar. [Padrão: mais recente]
 anvil --hardfork <HARDFORK>
 
-# Port number to listen on. [default: 8545]
+# Número da porta para ouvir. [Padrão: 8545]
 anvil  -p, --port <PORT>
 ```
 
-> 📚 **Reference**
+> 📚 **Referência**
 >
-> See the [`anvil` Reference](../reference/anvil/) for in depth information on Anvil and its capabilities.
-
+> Veja o [`anvil` Reference](../reference/anvil/) Para informações detalhadas sobre a bigorna e suas capacidades.

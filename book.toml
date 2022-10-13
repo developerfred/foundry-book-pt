@@ -1,10 +1,10 @@
 [book]
-authors = ["Oliver Nordbjerg"]
-language = "en"
+authors = ["Oliver Nordbjerg", "Codingsh"]
+language = "pt-br"
 multilingual = false
 src = "src"
-title = "Foundry Book"
-description = "A book on all things Foundry"
+title = "Livro Foundry"
+description = "Um livro sobre tudo sobre Foundry"
 
 [output.html]
 git-repository-url = "https://github.com/foundry-rs/book"

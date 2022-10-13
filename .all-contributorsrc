@@ -819,6 +819,17 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "Codingsh",
+      "name": "Codingsh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57037080?v=4",
+      "profile": "https://github.com/developerfred",
+      "contributions": [
+        "maintenance",
+        "doc",
+        "translate"
+      ]
     }
   ],
   "contributorsPerLine": 7,

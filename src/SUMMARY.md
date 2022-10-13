@@ -1,6 +1,6 @@
-# Summary
+# Resumo
 
-[Introduction](./README.md)
+[Introdução](./README.md)
 
 # Getting Started
 
@@ -262,7 +262,7 @@
     - [Snapshots](./cheatcodes/snapshots.md)
     - [RPC](./cheatcodes/rpc.md)
     - [Files](./cheatcodes/fs.md)
-  - [Forge Standard Library Reference](./reference/forge-std/README.md)
+  - [Forge Referência da Biblioteca Padrão](./reference/forge-std/README.md)
     - [Std Logs](./reference/forge-std/std-logs.md)
     - [Std Assertions](./reference/forge-std/std-assertions.md)
       - [`fail`](./reference/forge-std/fail.md)
@@ -303,10 +303,10 @@
       - [`abs`](./reference/forge-std/abs.md)
       - [`delta`](./reference/forge-std/delta.md)
       - [`percentDelta`](./reference/forge-std/percentDelta.md)
-    - [Script Utils](./reference/forge-std/script-utils.md)
+    - [Utils de script](./reference/forge-std/script-utils.md)
       - [`computeCreateAddress`](./reference/forge-std/compute-create-address.md)
       - [`deriveRememberKey`](./reference/forge-std/derive-remember-key.md)
-    - [Console Logging](./reference/forge-std/console-log.md)
-  - [DSTest Reference](./reference/ds-test.md)
-- [Miscellaneous](./misc/README.md)
-  - [Struct encoding](./misc/struct-encoding.md)
+    - [Registro de console](./reference/forge-std/console-log.md)
+  - [Referência do Dstest](./reference/ds-test.md)
+- [Diversas](./misc/README.md)
+  - [Codificação de estrutura](./misc/struct-encoding.md)
