@@ -2,55 +2,55 @@
 
 [Introdução](./README.md)
 
-# Getting Started
+# Começando
 
-- [Installation](./getting-started/installation.md)
-- [First Steps with Foundry](./getting-started/first-steps.md)
+- [Instalação](./getting-started/installation.md)
+- [Primeiros passos com fundição](./getting-started/first-steps.md)
 
-# Projects
+# Projetos
 
-- [Creating a New Project](./projects/creating-a-new-project.md)
-- [Working on an Existing Project](./projects/working-on-an-existing-project.md)
-- [Dependencies](./projects/dependencies.md)
-- [Project Layout](./projects/project-layout.md)
+- [Criando um novo projeto](./projects/creating-a-new-project.md)
+- [Trabalhando em um projeto existente](./projects/working-on-an-existing-project.md)
+- [Dependências](./projects/dependencies.md)
+- [Layout do projeto](./projects/project-layout.md)
 
-# Forge Overview
+# Visão geral da forja
 
-- [Overview of Forge](forge/README.md)
-- [Tests](./forge/tests.md)
-  - [Writing Tests](./forge/writing-tests.md)
+- [Visão geral do forge](forge/README.md)
+- [Testes](./forge/tests.md)
+  - [Escrevendo testes](./forge/writing-tests.md)
   - [Cheatcodes](./forge/cheatcodes.md)
-  - [Forge Standard Library Overview](./forge/forge-std.md)
-  - [Understanding Traces](./forge/traces.md)
-  - [Fork Testing](./forge/fork-testing.md)
+  - [Visão geral da biblioteca padrão forja forja](./forge/forge-std.md)
+  - [Entendendo traços](./forge/traces.md)
+  - [Teste de garfo](./forge/fork-testing.md)
   <!--  - [Coverage Reports]() !-->
-- [Advanced Testing](./forge/advanced-testing.md)
-  - [Fuzz Testing](./forge/fuzz-testing.md)
-  - [Differential Testing](./forge/differential-ffi-testing.md)
+- [Testes avançados](./forge/advanced-testing.md)
+  - [Teste de fuzz](./forge/fuzz-testing.md)
+  - [Testes diferenciais](./forge/differential-ffi-testing.md)
     <!--  - [Invariant Testing]() !-->
     <!--  - [Symbolic Testing]() !-->
     <!--  - [Table Testing]() !-->
     <!--  - [Mutation Testing]() !-->
     <!-- - [Linting and Formatting]() !-->
     <!-- - [Generating Documentation]() !-->
-- [Deploying and Verifying](./forge/deploying.md)
+- [Implantando e verificando](./forge/deploying.md)
 - [Gas Tracking](./forge/gas-tracking.md)
   - [Gas Reports](./forge/gas-reports.md)
   - [Gas Snapshots](./forge/gas-snapshots.md)
 - [Debugger](./forge/debugger.md)
 
-# Cast Overview
+# Visão geral do elenco
 
-- [Overview of Cast](./cast/README.md)
+- [Visão geral do elenco](./cast/README.md)
 
-# Anvil Overview
+# Visão geral da AVIL
 
-- [Overview of Anvil](./anvil/README.md)
+- [Visão geral da bigorna](./anvil/README.md)
 
-# Configuration
+# Configuração
 
-- [Configuring with `foundry.toml`](./config/README.md)
-- [Continuous Integration](./config/continous-integration.md)
+- [Configurando com `foundry.toml`](./config/README.md)
+- [Integração contínua](./config/continous-integration.md)
 - [Integrating with VSCode](./config/vscode.md)
 - [Shell Autocompletion](./config/shell-autocompletion.md)
 - [Static Analyzers](./config/static-analyzers.md)
@@ -58,19 +58,19 @@
 
 # Tutorials
 
-- [Creating an NFT with Solmate](./tutorials/solmate-nft.md)
-- [Docker and Foundry](./tutorials/foundry-docker.md)
-- [Testing EIP-712 Signatures](./tutorials/testing-eip712.md)
-- [Solidity Scripting](./tutorials/solidity-scripting.md)
-- [Forking Mainnet with Cast and Anvil](./tutorials/forking-mainnet-with-cast-anvil.md)
+- [Criando uma NFT com Solmate](./tutorials/solmate-nft.md)
+- [Docker e Foundry](./tutorials/foundry-docker.md)
+- [Testando assinaturas EIP-712](./tutorials/testing-eip712.md)
+- [Script de solidez](./tutorials/solidity-scripting.md)
+- [Bingeking mainnet com elenco e bigorna](./tutorials/forking-mainnet-with-cast-anvil.md)
 <!-- - [Incremental Adoption]() !-->
 
-# Appendix
+# Apêndice
 
-- [FAQ](./faq.md)
-- [References](./reference/README.md)
-  - [`forge` Commands](./reference/forge/README.md)
-    - [General Commands](./reference/forge/general-commands.md)
+- [Perguntas frequentes](./faq.md)
+- [Referências](./reference/README.md)
+  - [`forge` Comandos](./reference/forge/README.md)
+    - [Comandos gerais](./reference/forge/general-commands.md)
       - [forge](./reference/forge/forge.md)
       - [forge help](./reference/forge/forge-help.md)
       - [forge completions](./reference/forge/forge-completions.md)

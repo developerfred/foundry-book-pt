@@ -1,64 +1,63 @@
-## FAQ
+## PERGUNTAS FREQUENTES
 
-This is a collection of common questions and answers. If you do not find your question listed here, hop in the [Telegram support channel][tg-support]
-and let us help you!
+Esta é uma coleção de perguntas e respostas comuns. Se você não encontrar sua pergunta listada aqui, pule no[Telegram support channel][tg-support]
+E vamos ajudá -lo!
 
-### Help! I can't see my logs
+### Ajuda! Eu não consigo ver meus logs
 
-Forge does not display logs by default. If you want to see logs from Hardhat's `console.log` or from DSTest-style `log_*` events,
-you need to run [`forge test`][forge-test] with verbosity 2 (`-vv`).
+A Forge não exibe logs por padrão. Se você quiser ver logs do hardhat `console.log` ou de DSTest-style `log_*` eventos,
+você precisa correr [`forge test`][forge-test] with verbosity 2 (`-vv`).
 
-If you want to see other events your contracts emit, you need to run with traces enabled.
-To do that, set the verbosity to 3 (`-vvv`) to see traces for failing tests, or 4 (`-vvvv`) to see traces for all tests.
+Se você deseja ver outros eventos que seus contratos emitem, precisará executar com traços ativados. 
+ Para fazer isso, defina a verbosidade para 3 (`-vvv`) para ver traços para testes de falha, ou 4 (`-vvvv`) Para ver traços para todos os testes.
 
-### My tests are failing and I don't know why
+### meus testes estão falhando e eu não sei por que
 
-To gain better insight into why your tests are failing, try using traces. To enable traces, you need to increase the verbosity
-on [forge test][forge-test] to at least 3 (`-vvv`) but you can go as high as 5 (`-vvvvv`) for even more traces.
+Para obter uma melhor visão de por que seus testes estão falhando, tente usar traços. Para ativar traços, você precisa aumentar a verbosidade 
+ sobre[forge test][forge-test] para pelo menos 3(`-vvv`) Mas você pode ir até 5 (`-vvvvv`) Para ainda mais traços.
 
-You can learn more about traces in our [Understanding Traces][traces] chapter.
+Você pode aprender mais sobre traços em nosso [Entendendo traços][traces] capítulo.
 
-### How do I use `console.log`?
+### como eu uso `console.log`?
 
-To use Hardhat's `console.log` you must add it to your project by copying the file over from [here][console-log].
+Para usar o hardhat `console.log` você deve adicioná -lo ao seu projeto copiando o arquivo de [aqui][console-log].
 
-Alternatively, you can use [Forge Std][forge-std] which comes bundled with `console.log`. To use `console.log` from Forge Std,
-you have to import it:
+Alternativamente, você pode usar [Forge Std][forge-std] que vem com `console.log`. Usar `console.log` a partir de Forge Std,
+Você tem que importar:
 
 ```solidity
 import "forge-std/console.sol";
 ```
 
-### How do I run specific tests?
+### Como faço para executar testes específicos?
 
-If you want to run only a few tests, you can use `--match-test` to filter test functions,
-`--match-contract` to filter test contracts, and `--match-path` to filter test files on [`forge test`][forge-test].
+Se você quiser executar apenas alguns testes, pode usar `--match-test` Para filtrar funções de teste,
+`--match-contract` para filtrar contratos de teste e `--match-path` Para filtrar arquivos de teste em [`forge test`][forge-test].
 
-### How do I use a specific Solidity compiler?
+### Como uso um compilador de solidez específico?
 
-Forge will try to auto-detect what Solidity compiler works for your project.
+A Forge tentará detectar automaticamente o que o compilador de solidez funciona para o seu projeto.
 
-To use a specific Solidity compiler, you can set [`solc`][config-solc] in your [config file][config],
-or pass `--use solc:<version>` to a Forge command that supports it (e.g. [`forge build`][forge-build]
-or [`forge test`][forge-test]).
-Paths to a solc binary are also accepted. To use a specific local solc binary, you can set `solc = "<path to solc>"` in your config file, or pass `--use "<path to solc>"`.
-The solc version/path can also be set via the env variable `FOUNDRY_SOLC=<version/path>`, but the cli arg `--use` has priority.
+Para usar um compilador de solidez específico, você pode definir [`solc`][config-solc] na tua [config file][config],
+ou passar `--use solc:<version>` a um comando forge que o suporta(e.g. [`forge build`][forge-build]
+ou[`forge test`][forge-test]).
+Os caminhos para um binário SOLC também são aceitos. Para usar um binário SOLC local específico, você pode definir `solc = "<path to solc>"` em seu arquivo de configuração ou passe`--use "<path to solc>"`.
+A versão/caminho do SOLC também pode ser definida através da variável Env `FOUNDRY_SOLC=<version/path>`, Mas a CLI Arg `--use` tem prioridade.
 
-For example, if you have a project that supports all 0.7.x Solidity versions, but you want to compile with solc 0.7.0, you could use `forge build --use solc:0.7.0`.
+Por exemplo, se você possui um projeto que suporta todas as versões de solidez 0.7.x, mas deseja compilar com o Solc 0.7.0, você pode usar `forge build --use solc:0.7.0`.
 
-### How do I fork from a live network?
+### Como faço para garoto de uma rede ao vivo?
 
-To fork from a live network, pass `--fork-url <URL>` to [`forge test`][forge-test].
-You can also fork from a specific block using `--fork-block-number <BLOCK>`, which adds determinism to your test, and allows Forge to cache
-the chain data for that block.
+Para o garfo de uma rede ao vivo, passe `--fork-url <URL>` to [`forge test`][forge-test].
+Você também pode garra de um bloco específico usando `--fork-block-number <BLOCK>`, o que adiciona determinismo ao seu teste e permite a Forge para armazenar em cache os dados da cadeia para esse bloco. 
 
-For example, to fork from Ethereum mainnet at block 10,000,000 you could use: `forge test --fork-url $MAINNET_RPC_URL --fork-block-number 10000000`.
+Por exemplo, para forçar o Ethereum Mainnet no Bloco 10.000.000 que você poderia usar: `forge test --fork-url $MAINNET_RPC_URL --fork-block-number 10000000`.
 
-### How do I add my own assertions?
+### Como faço para adicionar minhas próprias afirmações?
 
-You can add your own assertions by creating your own base test contract and having that inherit from the test framework of your choice.
+Você pode adicionar suas próprias afirmações criando seu próprio contrato de teste básico e tendo esse herdamento da estrutura de teste de sua escolha.
 
-For example, if you use DSTest, you could create a base test contract like this:
+Por exemplo, se você usar o Dstest, poderá criar um contrato de teste básico como este:
 
 ```solidity
 contract TestBase is DSTest {
@@ -71,7 +70,7 @@ contract TestBase is DSTest {
 }
 ```
 
-You would then inherit from `TestBase` in your test contracts.
+Você herdaria então de `TestBase` em seus contratos de teste.
 
 ```solidity
 contract MyContractTest is TestBase {

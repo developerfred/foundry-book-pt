@@ -1,38 +1,38 @@
 <img src="images/foundry-banner.png" style="border-radius: 20px">
 
-Foundry is a smart contract development toolchain.
+A fundição é uma cadeia de ferramentas de desenvolvimento de contratos inteligente. 
 
-Foundry manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command-line and via Solidity scripts.
+ A fundição gerencia suas dependências, compila seu projeto, executa testes, implanta e permite que você interaja com a cadeia da linha de comando e através de scripts de solidez.
 
-> 📖 **Contributing**
+> 📖** contribuindo **
 >
 > You can contribute to this book on [GitHub](https://github.com/foundry-rs/book).
 
 ### Sections
 
-**[Getting Started](getting-started/installation.md)**
+**[Começando](getting-started/installation.md)**
 
-To get started with Foundry, install Foundry and set up your first project.
+Para começar com a Foundry, instale a fundição e configure seu primeiro projeto.
 
-**[Projects](projects/creating-a-new-project.md)**
+**[Projetos](projects/creating-a-new-project.md)**
 
-This section will give you an overview of how to create and work with existing projects.
+Esta seção fornecerá uma visão geral de como criar e trabalhar com projetos existentes.
 
-**[Forge Overview](forge)**
+**[Visão geral da criação](forge)**
 
-The overview will give you all you need to know about how to use `forge` to develop, test, and deploy smart contracts.
+A visão geral fornecerá tudo o que você precisa saber sobre como usar o 'Forge` para desenvolver, testar e implantar contratos inteligentes.
 
-**[Cast Overview](cast)**
+**[Visão geral do elenco](cast)**
 
-Learn how to use `cast` to interact with smart contracts, send transactions, and get chain data from the command-line.
+Aprenda a usar `cast` Para interagir com contratos inteligentes, enviar transações e obter dados da cadeia da linha de comando.
 
-**[Anvil Overview](anvil)**
+**[Visão geral da bigorna](anvil)**
 
-Learn about `anvil`, Foundry's local node.
+Aprender sobre `anvil`, Foundry's Nó local.
 
-**Configuration**
+**Configuração**
 
-Guides on configuring Foundry.
+Guias para configurar a fundição.
 
 - [Configuring with `foundry.toml`](./config/)
 - [Continuous Integration](./config/continous-integration.md)
@@ -41,31 +41,31 @@ Guides on configuring Foundry.
 - [Static Analyzers](./config/static-analyzers.md)
 - [Integrating with Hardhat](./config/hardhat.md)
 
-**Tutorials**
+**Tutoriais**
 
-Tutorials on building smart contracts with Foundry.
+Tutoriais sobre a construção de contratos inteligentes com Foundry.
 
-- [Creating an NFT with Solmate](./tutorials/solmate-nft.md)
+- [Criando uma NFT com Solmate](./tutorials/solmate-nft.md)
 - [Docker and Foundry](./tutorials/foundry-docker.md)
 - [Testing EIP-712 Signatures](./tutorials/testing-eip712.md)
 - [Solidity Scripting](./tutorials/solidity-scripting.md)
 - [Forking Mainnet with Cast and Anvil](./tutorials/forking-mainnet-with-cast-anvil.md)
 <!-- - [Incremental Adoption]() -->
 
-**Appendix**
+**Apêndice**
 
-References, troubleshooting, and more.
+Referências, solução de problemas e muito mais.
 
 - [FAQ](./faq.md)
 - [forge Commands](./reference/forge/)
 - [cast Commands](./reference/cast/)
 - [anvil commands](./reference/anvil/)
-- [Config Reference](./reference/config/)
-- [Cheatcodes Reference](./cheatcodes/)
-- [Forge Standard Library Reference](./reference/forge-std/)
+- [Referência de configuração](./reference/config/)
+- [Referência de Cheatcodes](./cheatcodes/)
+- [Forge Referência da Biblioteca Padrão](./reference/forge-std/)
 - [DSTest Reference](./reference/ds-test.md)
-- [Miscellaneous](misc)
+- [Diversas](misc)
 
 <br>
 
-> You can also check out [Awesome Foundry](https://github.com/crisgarner/awesome-foundry), a curated list of awesome Foundry resources, tutorials, tools, and libraries!
+> Você também pode conferir [Awesome Foundry](https://github.com/crisgarner/awesome-foundry), Uma lista com curadoria de incríveis recursos, tutoriais, ferramentas e bibliotecas!
